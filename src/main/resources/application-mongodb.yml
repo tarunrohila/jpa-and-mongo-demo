@@ -1,0 +1,20 @@
+########################################################
+######            Spring Config                   ######
+########################################################
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+      - org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration
+  ########################################################
+  ######            Mongo DB Config                 ######
+  ########################################################
+  data:
+    mongodb:
+      database: test
+      host: localhost
+      password: password
+      port: 27017
+      uri: mongodb://localhost:27017/
+      username: test
