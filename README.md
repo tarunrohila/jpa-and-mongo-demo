@@ -1,8 +1,6 @@
 # Read Me First
 
 
-* The original package name 'jpa-and-mongo-demo' is invalid and this project uses 'jpaandmongodemo' instead.
-
 # Getting Started
 
 ### Reference Documentation
